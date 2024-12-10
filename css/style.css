@@ -178,7 +178,7 @@ header main #hero-container {
   flex-direction: column;
   max-width: -moz-min-content;
   max-width: min-content;
-  max-width: 480px;
+  min-width: 700px;
 }
 header main #hero-container h1 {
   color: white;
@@ -220,10 +220,10 @@ header main #hero-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 25%;
+  margin-right: 15%;
 }
 header main #hero-img-container img#about-img {
-  width: 30%;
+  width: 350px;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   animation: morphing 10s infinite;
 }
